@@ -1,9 +1,8 @@
-import { getAppSettings } from "../lib/asd"
-import { ErrorTrigger } from "./ErrorTrigger"
-
+import { getAppSettings } from '../lib/asd';
+import { ErrorTrigger } from './ErrorTrigger';
 
 async function Settings() {
-  const { theme, language } = await getAppSettings()
+  const { theme, language } = await getAppSettings();
 
   return (
     <div>
@@ -12,7 +11,7 @@ async function Settings() {
 
       <ErrorTrigger />
     </div>
-  )
+  );
 }
 
-export default Settings
+export default Settings;

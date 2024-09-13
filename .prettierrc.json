@@ -6,4 +6,3 @@
   "jsxSingleQuote": true,
   "plugins": ["prettier-plugin-tailwindcss"]
 }
- 

@@ -12,7 +12,7 @@ export const Header = () => {
   const hasScrolled = useScroll();
   const params = useSearchParams();
   const router = useRouter();
-  const initialSearchTerm = params.get('title') || ''
+  const initialSearchTerm = params.get('title') || '';
   const [searchTerm, setSearchTerm] = useState<string>(initialSearchTerm);
 
   const onSearchTermChange = (event: React.ChangeEvent<HTMLInputElement>) => {

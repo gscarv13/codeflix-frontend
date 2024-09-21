@@ -35,8 +35,6 @@ export const apiRequest = async <T>(
   const queryString: string = buildQueryString({ ...mergedOptions, ...query });
 
   try {
-    console.log('ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ')
-    console.log(`${API_URL}/${endpoint}${queryString}`)
     const response = await fetch(`${API_URL}/${endpoint}${queryString}`);
 
     if (!response.ok) {

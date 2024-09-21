@@ -2,7 +2,7 @@ type RatingBorderColor = {
   [key: string]: string;
 }
 
-const borderColor: RatingBorderColor = {
+export const borderColor: RatingBorderColor = {
   'pg': 'border-green-500',
   'pg-13': 'border-yellow-500',
   'r': 'border-red-500',

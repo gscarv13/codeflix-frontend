@@ -3,7 +3,7 @@ import { Movie, Movies } from '@/app/types/movie';
 import { title } from 'process';
 
 export const getMovieById = async (id: number): Promise<Movie> => {
-  return await apiRequest(`movie/${encodeURIComponent(id)}`);
+  return await apiRequest(`movies/${encodeURIComponent(id)}`);
 };
 
 export const getFeaturedMovie = async (id: number): Promise<Movie> => {

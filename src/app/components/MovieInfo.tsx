@@ -15,7 +15,7 @@ export const MovieInfo = ({ movie }: { movie: Movie }) => (
     <div className='flex flex-row items-center justify-between gap-2'>
       <div className='flex flex-row items-center gap-2'>
         <div className='lg;h-10 flex h-6 w-6 cursor-pointer items-center justify-center rounded-full bg-transparent transition hover:bg-neutral-300 hover:text-black lg:w-10'>
-          <Link href={`/movie/${movie.id}`}>
+          <Link href={`/watch/${movie.id}`}>
             <PlayIcon className='w-4 lg:w-6' />
           </Link>
         </div>
